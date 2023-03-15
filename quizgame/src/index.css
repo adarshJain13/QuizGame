@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.ques-card{
+  background-color: #9BA4B4 !important;
+}
+.ques-background{
+  background-color: #14274E !important;
+  
+  color: black !important;
+}
+.ques-card-body{
+  padding: 20px !important;
+}
+.ques-border{
+  
+  padding: 10px;
+}
+.category-heading{
+  background-color: #FF5677;
+  color: whitesmoke;
+}
+
+
+.cardeffect:hover{
+  transform: scale(1.045);
+  transition: transform 300ms ease-in-out;
+  box-shadow: #281a1d 0px 5px 15px ;
+  /* transition: 0.3s; */
+}
+.cardeffect:not(:hover){
+  transition: transform 300ms ease-in-out;
+}
+.li-effect:hover{
+  background-color: #14274E;
+  color: white;
+border-radius: 0px !important;
+}
+
+#LogInCard{
+  
+  height: 90vh;
+ 
+}
+
+html, body, #app, #app>div {
+  height: 100%
+}
